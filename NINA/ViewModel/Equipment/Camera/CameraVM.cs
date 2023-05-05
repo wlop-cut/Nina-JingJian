@@ -139,7 +139,7 @@ namespace NINA.ViewModel.Equipment.Camera {
             }
 
             if (turnOffCooler) {
-                //adding a delay - Some cams seem to not like to immediately have their cooler set to off
+                //adding a delay - Some cams seem to not like to immediately have their cooler set off
                 await Utility.Utility.Wait(TimeSpan.FromSeconds(20));
                 Cam.CoolerOn = false;
             }
