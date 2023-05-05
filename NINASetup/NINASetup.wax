@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DeployedProjects>
+    <string>NINA\NINA.csproj</string>
+    <string>NINA.MGEN\NINA.MGEN.csproj</string>
+    <string>NINACustomControlLibrary\NINACustomControlLibrary.csproj</string>
+    <string>StarDataImport\StarDataImport.csproj</string>
+    <string>nikoncswrapper\nikoncswrapper.csproj</string>
+  </DeployedProjects>
+  <DirectoryMappings>
+    <Item Key="" Value="INSTALLFOLDER" />
+    <Item Key="External\x64\QHYCCD" Value="External_x64_QHY" />
+    <Item Key="External\x86\QHYCCD" Value="External_x86_QHY" />
+  </DirectoryMappings>
+  <FileMappings>
+    <Item Key="External\x86\QHYCCD\ftd2xx.dll" Value="External_x86_QHY_ftd2xx.dll" />
+    <Item Key="External\x86\QHYCCD\qhyccd.dll" Value="External_x86_QHY_qhyccd.dll" />
+    <Item Key="External\x86\QHYCCD\tbb.dll" Value="External_x86_QHY_tbb.dll" />
+    <Item Key="External\x64\QHYCCD\ftd2xx.dll" Value="External_x64_QHY_ftd2xx.dll" />
+    <Item Key="External\x64\QHYCCD\qhyccd.dll" Value="External_x64_QHY_qhyccd.dll" />
+    <Item Key="External\x64\QHYCCD\tbb.dll" Value="External_x64_QHY_tbb.dll" />
+    <Item Key="External\JPLEPH" Value="JPLEPH" />
+  </FileMappings>
+  <DeploySymbols>false</DeploySymbols>
+  <DeployLocalizations>false</DeployLocalizations>
+  <DeployExternalLocalizations>false</DeployExternalLocalizations>
+</Configuration>
